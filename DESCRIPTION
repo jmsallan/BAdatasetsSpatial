@@ -10,5 +10,6 @@ License: GLP-2
 Encoding: UTF-8
 LazyData: true
 Depends: 
+    R (>= 3.5.0),
     sp
 RoxygenNote: 7.1.0
