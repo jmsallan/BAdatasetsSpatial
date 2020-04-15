@@ -53,3 +53,27 @@
 #'
 'WorldMapData'
 
+#' Data of world cities
+#'
+#' @description A data frame containing information from 15,493 cities
+#'
+#' \describe{
+#' \item{city}{The city name in utf-8 encoding}
+#' \item{city_ascii}{The city name in ascii (no accents and special characters).}
+#' \item{lat}{Latitude.}
+#' \item{lon}{Longitude.}
+#' \item{country}{Country name (in English).}
+#' \item{iso_a2}{ISO 3166-1 alpha-2 country codes.}
+#' \item{iso_a3}{ISO 3166-1 alpha-3 country codes.}
+#' \item{admin_name}{Name of administrative region.}
+#' \item{capital}{If the city is capital. Capital cities have 'primary' in this variable, and 'admin' for the administrative region.}
+#' \item{population}{Inhabitants of the city (updated in 2019.)}
+#' }
+#'
+#' @source \url{https://simplemaps.com/data/world-cities}
+#'
+#' @examples
+#'
+#' WorldCities
+#'
+'WorldCities'
