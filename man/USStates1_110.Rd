@@ -14,7 +14,7 @@ An object of class \code{sf} (inherits from \code{data.frame}) with 51 rows and 
 USStates1_110
 }
 \description{
-A map of states of the United States of America (scale 1:110m)
+A map of states of the United States of America loaded as a sf object (scale 1:110m)
 
 Internal, first-order administrative boundaries and polygons for the United States of America.
 }

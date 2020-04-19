@@ -12,7 +12,7 @@
 #'
 'WorldMap1_10'
 
-#' A map of world states loaded as a sf object (scale 1:10m)
+#' A map of world states (scale 1:10m)
 #'
 #' @description A map of world states loaded as a sf object(scale 1:10m)
 #'
@@ -28,7 +28,7 @@
 
 #' A map of states of the United States of America (scale 1:110m)
 #'
-#' @description A map of states of the United States of America (scale 1:110m)
+#' @description A map of states of the United States of America loaded as a sf object (scale 1:110m)
 #'
 #' Internal, first-order administrative boundaries and polygons for the United States of America.
 #'
@@ -105,3 +105,32 @@
 #' WorldCities
 #'
 'WorldCities'
+
+
+#' A map of barcelona districts
+#'
+#' @description A map of barcelona districts loaded as a sf object
+#'
+#' District names have been set into utf8 encoding.
+#'
+#' @source \url{https://vangdata.carto.com/tables/shapefiles_barcelona_distrito/public}
+#'
+#' @examples
+#'
+#' BCNDistricts
+#'
+'BCNDistricts'
+
+#' A map of barcelona neighbourhoods
+#'
+#' @description A map of barcelona neighbourhoods loaded as a sf object
+#'
+#' Neighbourhoods and district names have been set into utf8 encoding.
+#'
+#' @source \url{https://vangdata.carto.com/tables/shapefiles_barcelona_distrito/public}
+#'
+#' @examples
+#'
+#' BCNNeigh
+#'
+'BCNNeigh'
