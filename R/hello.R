@@ -12,6 +12,34 @@
 #'
 'WorldMap1_10'
 
+#' A map of world states loaded as a sf object (scale 1:10m)
+#'
+#' @description A map of world states loaded as a sf object(scale 1:10m)
+#'
+#' Internal, first-order administrative boundaries and polygons for all but a few tiny countries. Includes name attributes (including diacritical marks), name variants, and some statistical codes (FIPS, ISO, HASC).
+#'
+#' @source \url{https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/}
+#'
+#' @examples
+#'
+#' WorldStates1_10
+#'
+'WorldStates1_10'
+
+#' A map of states of the United States of America (scale 1:110m)
+#'
+#' @description A map of states of the United States of America (scale 1:110m)
+#'
+#' Internal, first-order administrative boundaries and polygons for the United States of America.
+#'
+#' @source \url{https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-1-states-provinces/}
+#'
+#' @examples
+#'
+#' USStates1_110
+#'
+'USStates1_110'
+
 #' A map of the world (1:110m)
 #'
 #' @description A map of the world loaded as a sf object (scale 1:110m)
