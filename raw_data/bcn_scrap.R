@@ -5,9 +5,17 @@ unzip("data-raw/shapefiles_barcelona_distrito.zip", exdir="/bcn_distritos")
 unzip("data-raw/shapefiles_barrio_barcelona.zip", exdir="/bcn_barrios")
 
 BCNDistricts <- st_read("data/bcn_distritos/")
+
 BCNDistricts %>% select(n_distri)
 distritos <- c("Sarrià-Sant Gervasi", "Horta-Guinardó", "Ciutat Vella", "Eixample", "Sants-Montjuïc", "Les Corts", "Gràcia", "Nou Barris", "Sant Andreu", "Sant Martí")
 BCNDistricts <- BCNDistricts %>% mutate(n_distri = distritos)
+
+BCNDistricts <- BCNDistricts %>% mutate(c_distri = as.numeric(c_distri))
+
+centroids <- st_coordinates(st_centroid(BCNDistricts))
+rownames(centroids) <- NULL
+BCNDistricts <- BCNDistricts %>% mutate(coord_x = centroids[ ,1], coord_y = centroids[,2])
+
 save(BCNDistricts, file = "BCNDistricts.RData")
 
 BCNNeigh <- st_read("data/bcn_barrios/")
@@ -42,6 +50,12 @@ i_dieresis <- substr(distritos[5], 13, 14)
 distritos <- gsub(i_dieresis, "ï", distritos)
 
 BCNNeigh <- BCNNeigh %>% mutate(n_barri = barrios, n_distri = distritos)
+
+BCNNeigh <- BCNNeigh %>% mutate(c_distri = as.numeric(c_distri))
+
+centroids_barris <- st_coordinates(st_centroid(BCNNeigh))
+rownames(centroids_barris) <- NULL
+BCNNeigh <- BCNNeigh %>% mutate(coord_x=centroids_barris[,1], coord_y=centroids_barris[,2])
 
 BCNNeigh %>% select(n_barri, n_distri) %>% print(n=11000)
 save(BCNNeigh, file="BCNNeigh.RData")

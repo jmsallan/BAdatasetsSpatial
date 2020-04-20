@@ -107,11 +107,11 @@
 'WorldCities'
 
 
-#' A map of barcelona districts
+#' A map of Barcelona districts
 #'
-#' @description A map of barcelona districts loaded as a sf object
+#' @description A map of Barcelona districts loaded as a sf object
 #'
-#' District names have been set into utf8 encoding.
+#' District names have been set into utf8 encoding. District numbers are set as numeric, like in Barcelona Open Data platform. The coordinates of the original dataset have been removed, and replaced by centroids of polygons.
 #'
 #' @source \url{https://vangdata.carto.com/tables/shapefiles_barcelona_distrito/public}
 #'
@@ -121,11 +121,11 @@
 #'
 'BCNDistricts'
 
-#' A map of barcelona neighbourhoods
+#' A map of Barcelona neighbourhoods
 #'
-#' @description A map of barcelona neighbourhoods loaded as a sf object
+#' @description A map of Barcelona neighbourhoods loaded as a sf object
 #'
-#' Neighbourhoods and district names have been set into utf8 encoding.
+#' District names have been set into utf8 encoding.  District numbers are set as numeric, like in Barcelona Open Data platform. The coordinates of the original dataset have been removed, and replaced by centroids of polygons.
 #'
 #' @source \url{https://vangdata.carto.com/tables/shapefiles_barcelona_distrito/public}
 #'

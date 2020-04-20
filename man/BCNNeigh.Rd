@@ -3,7 +3,7 @@
 \docType{data}
 \name{BCNNeigh}
 \alias{BCNNeigh}
-\title{A map of barcelona neighbourhoods}
+\title{A map of Barcelona neighbourhoods}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 73 rows and 16 columns.
 }
@@ -14,9 +14,9 @@ An object of class \code{sf} (inherits from \code{data.frame}) with 73 rows and 
 BCNNeigh
 }
 \description{
-A map of barcelona neighbourhoods loaded as a sf object
+A map of Barcelona neighbourhoods loaded as a sf object
 
-Neighbourhoods and district names have been set into utf8 encoding.
+District names have been set into utf8 encoding.  District numbers are set as numeric, like in Barcelona Open Data platform. The coordinates of the original dataset have been removed, and replaced by centroids of polygons.
 }
 \examples{
 
