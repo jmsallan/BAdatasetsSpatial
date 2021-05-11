@@ -12,4 +12,4 @@ LazyData: true
 Depends: 
     R (>= 3.5.0),
     sf
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

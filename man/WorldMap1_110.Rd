@@ -5,7 +5,7 @@
 \alias{WorldMap1_110}
 \title{A map of the world (1:110m)}
 \format{
-An object of class \code{sf} (inherits from \code{data.frame}) with 177 rows and 95 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 177 rows and 87 columns.
 }
 \source{
 \url{https://www.naturalearthdata.com/downloads/10m-cultural-vectors/110m-admin-0-countries/}
