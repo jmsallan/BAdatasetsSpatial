@@ -285,7 +285,7 @@
 #' \item{alt}{Altitude in feet.}
 #' \item{timezone}{Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5.}
 #' \item{DST}{Daylight savings time. One of E (Europe), A (US/Canada), S (South America), O (Australia), Z (New Zealand), N (None) or U (Unknown).}
-#' item{tz}{Timezone in "tz" (Olson) format, eg. "America/Los_Angeles". }
+#' \item{tz}{Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".}
 #' }
 #'
 #' @source \url{https://openflights.org/data.html}
@@ -316,3 +316,55 @@
 #' of_routes
 #'
 'of_routes'
+
+#' The mwgg airport database
+#'
+#' @description Obtained from a JSON database of 28828 entries with basic information about nearly every airport and landing strip in the world. ICAO codes used as primary value. Some IATA codes have been added from the csv_airports database.
+#'
+#' \describe{
+#' \item{icao}{4-letter ICAO code.}
+#' \item{iata}{3-letter IATA code.}
+#' \item{name}{Name of airport.}
+#' \item{city}{Main city served by airport.}
+#' \item{country}{Country or territory where airport is located, in ISO 3166-1 format.}
+#' \item{state}{State or administrative division of the country where the airport is located.}
+#' \item{elevation}{Altitude in feet.}
+#' \item{lat}{Decimal degrees, usually to ten significant digits. Negative is South, positive is North.}
+#' \item{lon}{Decimal degrees, usually to ten significant digits. Negative is West, positive is East.}
+#' \item{tz}{Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".}
+#' }
+#'
+#' @source \url{https://github.com/mwgg/Airports}
+#'
+#' @examples
+#'
+#' mwgg_airports
+#'
+'mwgg_airports'
+
+#' A database of airports obtained from a csv file of unknown origin.
+#'
+#' @description Another database of airports. It comes from a .csv file of unknown origin, with some additions and modifications with information from Wikipedia.
+#'
+#' \describe{
+#' \item{name}{Name of airport.}
+#' \item{city}{Main city served by airport.}
+#' \item{country}{Country or territory where airport is located, in ISO 3166-1 format.}
+#' \item{region}{State or administrative division of the country where the airport is located.}
+#' \item{IATA}{3-letter IATA code.}
+#' \item{ICAO}{4-letter ICAO code.}
+#' \item{lat}{Decimal degrees, usually to six significant digits. Negative is South, positive is North.}
+#' \item{lon}{Decimal degrees, usually to six significant digits. Negative is West, positive is East.}
+#' \item{alt}{Altitude in feet.}
+#' \item{timezone}{Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5.}
+#' \item{tz}{Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".}
+#' \item{WAC}{Numeric codes used to identify geopolitical areas such as countries, states, provinces, and territories or possessions of certain countries. The codes are used within the various data banks maintained by the Office of Airline Information (OAI) and are created by OAI.}
+#' }
+#'
+#' @source unknown (didn't bother to record at the moment).
+#'
+#' @examples
+#'
+#' csv_airports
+#'
+'csv_airports'

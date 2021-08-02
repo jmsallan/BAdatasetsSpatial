@@ -28,7 +28,7 @@ library(dplyr)
 
 of_airports %>% summarise_all(~ sum(. == "\\N")) %>% glimpse()
 
-of_airports <- of_airports %>% mutate_all( ~ gsub('\\\\N', NA, .))
+of_airports <- of_airports %>% mutate_if(is.character, ~ gsub('\\\\N', NA, .))
 
 of_airports %>% summarise_all(~ sum(is.na(.))) %>% glimpse()
 
