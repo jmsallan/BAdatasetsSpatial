@@ -4,8 +4,7 @@ Title: A compilation of spatial data for a Business Analytics course
 Version: 0.1.0
 Author: Jose M Sallan
 Maintainer: Jose M Sallan <jose.maria.sallan@upc.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: The package contains several spatial objects allowing to make maps of several countries and cities, together with some datasets containing spatial information.
 License: GLP-2
 Encoding: UTF-8
 LazyData: true
