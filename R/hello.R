@@ -106,7 +106,6 @@
 #'
 'WorldCities'
 
-
 #' A map of Barcelona districts
 #'
 #' @description A map of Barcelona districts loaded as a sf object
@@ -134,6 +133,76 @@
 #' BCNNeigh
 #'
 'BCNNeigh'
+
+#' A map of Terrassa neighbourhoods
+#'
+#' @description A map of Terrassa neighbourhoods loaded as a sf object
+#'
+#' Additional information: AREA and PERIMETER of each neighbourhood, and neighbourhood name in NOM_BARRI.
+#'
+#' @source \url{https://opendata.terrassa.cat/es/dataset/mapa-de-la-ciutat-amb-les-divisions-per-barris}
+#'
+#' @examples
+#'
+#' trs_barris
+#'
+'trs_barris'
+
+#' A map of Terrassa districts
+#'
+#' @description A map of Terrassa districts loaded as a sf object
+#'
+#' Additional information: AREA and PERIMETER of each district, and district number in DISTRICTE.
+#'
+#' @source \url{https://opendata.terrassa.cat/es/dataset/mapa-de-la-ciutat-amb-les-divisions-per-districtes}
+#'
+#' @examples
+#'
+#' trs_districtes
+#'
+'trs_districtes'
+
+#' A map of Terrassa zip codes
+#'
+#' @description A map of Terrassa zip codes loaded as a sf object
+#'
+#' Additional information: AREA and PERIMETER of each zip code, and zip code in CODI_POSTA.
+#'
+#' @source \url{https://opendata.terrassa.cat/es/dataset/mapa-de-la-ciutat-amb-les-divisions-per-districtes}
+#'
+#' @examples
+#'
+#' trs_codis
+#'
+'trs_codis'
+
+#' A map of Terrassa industrial parks
+#'
+#' @description A map of Terrassa industrial parks loaded as a sf object
+#'
+#' Additional information: AREA in square meters, area in HECTARES and PERIMETER of each industrial park, and industrial park name in NOM_POLIGO.
+#'
+#' @source \url{https://opendata.terrassa.cat/es/dataset/mapa-dels-poligons-industrials}
+#'
+#' @examples
+#'
+#' trs_poligons
+#'
+'trs_poligons'
+
+#' A map of Terrassa census tracts
+#'
+#' @description A map of Terrassa census tracts loaded as a sf object
+#'
+#' Additional information: AREA and PERIMETER of each zip code, district at DIST and census tract at SECC.
+#'
+#' @source \url{https://emap.terrassa.cat/mapserver/zipService/downloadZIP.aspx?type=divadm&key=post&srs=ETRS89}
+#'
+#' @examples
+#'
+#' trs_cens
+#'
+'trs_cens'
 
 #' Countries and regions for World Bank datasets
 #'
