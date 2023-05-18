@@ -134,6 +134,16 @@
 #'
 'BCNNeigh'
 
+#' A map of Spanish Autonomous Regions
+#'
+#' @description A map with the borders of the Spanish autonomous regions as a sf object
+#'
+#' @examples
+#'
+#' esp_ccaa
+#'
+'esp_ccaa'
+
 #' A map of Terrassa neighbourhoods
 #'
 #' @description A map of Terrassa neighbourhoods loaded as a sf object
@@ -203,141 +213,6 @@
 #' trs_cens
 #'
 'trs_cens'
-
-#' Countries and regions for World Bank datasets
-#'
-#' @description A list of countries and regions as in World Bank Data datasets
-#'
-#' The table is taken from the metadata of several datasets of the World Bank Data open data bank
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{country_name}{The name of the country or region, as of the World Bank datasets}
-#' \item{region}{The geograpical region of each country}
-#' \item{income_group}{The income group of each country}
-#' \item{notes}{Notes for specific observations}}
-#'
-#' @source \url{https://data.worldbank.org/}
-#'
-#' @examples
-#'
-#' WB_countries
-#'
-'WB_countries'
-
-#' Fertility rates of countries from World Bank Data
-#'
-#' @description A table of fertility rates for each country and year
-#'
-#' The total fertility rate (TFR), sometimes also called the fertility rate, absolute/potential natality, period total fertility rate (PTFR), or total period fertility rate (TPFR) of a population is the average number of children that would be born to a woman over her lifetime if she was to experience the exact current age-specific fertility rates through her lifetime and she was to live from birth until the end of her reproductive life.
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (SP.DYN.TFRT.IN)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/SP.DYN.TFRT.IN}
-#'
-#'@examples
-#'
-#'WB_fertility
-#'
-'WB_fertility'
-
-#' GDP per capita at purchasing power parity of countries from World Bank Data
-#'
-#' @description A table of fertility GDP per capita for each country and year, in current international dollars
-#'
-#' The purchasing power parity (PPP) value of all final goods and services produced within a country in a given year, divided by the average (or mid-year) population for the same year.
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (NY.GDP.PCAP.PP.CD)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD}
-#'
-#'@examples
-#'
-#'WB_gdp_per_capita
-#'
-'WB_gdp_per_capita'
-
-#' Gini index of countries from World Bank Data
-#'
-#' @description A table of the Gini index for each country and year, estimated by the World Bank
-#'
-#' The Gini index or coefficient of inequality of income. A Gini index near one expresses maximal inequality, and a value near zero expresses maximal equality.
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (SI.POV.GINI)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/SI.POV.GINI}
-#'
-#'@examples
-#'
-#'WB_gini
-#'
-'WB_gini'
-
-#' Population (female)
-#'
-#' @description A table of female population for each country and year, estimated by the World Bank
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (SP.POP.TOTL.FE.IN)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/SP.POP.TOTL.FE.IN}
-#'
-#'@examples
-#'
-#'WB_population_female
-#'
-'WB_population_female'
-
-#' Population (total)
-#'
-#' @description A table of total population for each country and year, estimated by the World Bank
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (SP.POP.TOTL)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/SP.POP.TOTL}
-#'
-#'@examples
-#'
-#'WB_population
-#'
-'WB_population'
-
-#' Poverty headcount ratio at 1.90 dollar a day
-#'
-#' @description A table of percentage of population earning less than 1.90 dollar a day (2011 purchasing power parity) for each country and year, estimated by the World Bank
-#'
-#' \describe{
-#' \item{country_code}{ISO 3166-1 alpha-3 country codes or regions}
-#' \item{indicator}{The World Bank indicator (SI.POV.DDAY)}
-#' \item{year}{The year of the datum}
-#' \item{value}{The value of the datum}}
-#'
-#' @source \url{https://data.worldbank.org/indicator/SI.POV.DDAY}
-#'
-#'@examples
-#'
-#'WB_poverty_odd
-#'
-'WB_poverty_odd'
 
 #' OpenFlights airport data
 #'
@@ -437,3 +312,4 @@
 #' csv_airports
 #'
 'csv_airports'
+
