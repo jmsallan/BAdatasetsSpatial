@@ -313,3 +313,68 @@
 #'
 'csv_airports'
 
+#' Air quality data from Barcelona
+#'
+#' @description
+#' A dataset with data from air quality in Barcelona. Currently data from January 2020 to June 2024.
+#'
+#' \describe{
+#' \item{estacio}{Code of air quality measurement station. See aq_stations_bcn for more information.}
+#' \item{codi_contaminant}{Code of pollutant. See aq_pollutants_bcn for more information.}
+#' \item{any}{Year of data retrieval.}
+#' \item{mes}{Month of data retrieval.}
+#' \item{dia}{Day of data retrieval.}
+#' \item{hora}{Hour of data retrieval.}
+#' \item{value}{Value of pollutant in specified units (see aq_pollutants_bcn for more information).}
+#' \item{data}{Date time in POSIXct format.}
+#' }
+#'
+#' @source BCN Open Data \url{https://opendata-ajuntament.barcelona.cat/data/en/dataset/qualitat-aire-detall-bcn}
+#'
+#' @examples
+#'
+#' aq_bcn
+#'
+'aq_bcn'
+
+#' Air quality measurement stations of Barcelona
+#'
+#' @description
+#' A list of air quality measurement stations of Barcelona.
+#'
+#' \describe{
+#' \item{estacio}{Code of air quality measurement station.}
+#' \item{nom_cabina}{Name of air quality measurement station.}
+#' \item{longitud}{Longitude of air quality measurement station location.}
+#' \item{latitud}{Latitude of air quality measurement station location.}
+#' \item{codi_districte}{Code of district of air quality measurement station location.}
+#' \item{codi_barri}{Code of neighbourhood of air quality measurement station location.}
+#' \item{geometry}{Location of air quality measurement station location as sf object.}
+#' }
+#'
+#' @source BCN Open Data \url{https://opendata-ajuntament.barcelona.cat/data/en/dataset/metadades-estacions-meteorologiques}
+#'
+#' @examples
+#'
+#' aq_stations_bcn
+#'
+'aq_stations_bcn'
+
+#' Pollutants measured at air quality measurement stations of Barcelona.
+#'
+#' @description
+#' A list of pollutants measured at air quality measurement stations of Barcelona.
+#'
+#'\describe{
+#'\item{codi_contaminant}{Code of pollutant.}
+#'\item{desc_contaminant}{Name of pollutant.}
+#'\item{unitats}{Measurement units of pollutant.}
+#'}
+#'
+#'@source BCN Open Data \url{https://opendata-ajuntament.barcelona.cat/data/en/dataset/contaminants-estacions-mesura-qualitat-aire}
+#'
+#'@examples
+#'
+#'aq_pollutants_bcn
+#'
+'aq_pollutants_bcn'
