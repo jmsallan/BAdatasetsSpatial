@@ -3,7 +3,7 @@
 \docType{data}
 \name{trs_barris}
 \alias{trs_barris}
-\title{A map of Terrassa neighbourhoods}
+\title{A map of Terrassa neighbourhoods.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 56 rows and 8 columns.
 }

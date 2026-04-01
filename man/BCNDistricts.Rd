@@ -3,7 +3,7 @@
 \docType{data}
 \name{BCNDistricts}
 \alias{BCNDistricts}
-\title{A map of Barcelona districts}
+\title{A map of Barcelona districts.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 10 rows and 13 columns.
 }

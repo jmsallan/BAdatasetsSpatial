@@ -3,7 +3,7 @@
 \docType{data}
 \name{WorldMap1_110}
 \alias{WorldMap1_110}
-\title{A map of the world (1:110m)}
+\title{A map of the world (1:110m).}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 177 rows and 87 columns.
 }

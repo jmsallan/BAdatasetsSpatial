@@ -3,7 +3,7 @@
 \docType{data}
 \name{USStates1_110}
 \alias{USStates1_110}
-\title{A map of states of the United States of America (scale 1:110m)}
+\title{A map of states of the United States of America (scale 1:110m).}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 51 rows and 84 columns.
 }

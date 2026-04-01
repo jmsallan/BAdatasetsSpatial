@@ -3,7 +3,7 @@
 \docType{data}
 \name{csv_airports}
 \alias{csv_airports}
-\title{A database of airports obtained from a csv file of unknown origin.}
+\title{A database of airports.}
 \format{
 An object of class \code{data.table} (inherits from \code{data.frame}) with 11776 rows and 12 columns.
 }

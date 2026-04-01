@@ -3,7 +3,7 @@
 \docType{data}
 \name{of_airports}
 \alias{of_airports}
-\title{OpenFlights airport data}
+\title{OpenFlights airport data.}
 \format{
 An object of class \code{data.frame} with 7698 rows and 11 columns.
 }

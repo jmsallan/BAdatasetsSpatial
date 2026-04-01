@@ -3,7 +3,7 @@
 \docType{data}
 \name{WorldCities}
 \alias{WorldCities}
-\title{Data of world cities}
+\title{Data of world cities.}
 \format{
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 15493 rows and 10 columns.
 }

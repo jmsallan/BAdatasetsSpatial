@@ -3,7 +3,7 @@
 \docType{data}
 \name{esp_ccaa}
 \alias{esp_ccaa}
-\title{A map of Spanish Autonomous Regions}
+\title{A map of Spanish Autonomous Regions.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 18 rows and 20 columns.
 }

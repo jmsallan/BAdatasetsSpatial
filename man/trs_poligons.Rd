@@ -3,7 +3,7 @@
 \docType{data}
 \name{trs_poligons}
 \alias{trs_poligons}
-\title{A map of Terrassa industrial parks}
+\title{A map of Terrassa industrial parks.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 19 rows and 7 columns.
 }

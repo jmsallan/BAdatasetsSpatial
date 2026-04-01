@@ -3,7 +3,7 @@
 \docType{data}
 \name{of_routes}
 \alias{of_routes}
-\title{OpenFlights route database}
+\title{OpenFlights route database.}
 \format{
 An object of class \code{data.frame} with 67663 rows and 6 columns.
 }

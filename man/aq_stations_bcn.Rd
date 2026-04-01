@@ -3,7 +3,7 @@
 \docType{data}
 \name{aq_stations_bcn}
 \alias{aq_stations_bcn}
-\title{Air quality measurement stations of Barcelona}
+\title{Air quality measurement stations of Barcelona.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 8 rows and 7 columns.
 }

@@ -1,4 +1,4 @@
-#' A map of the world (1:10m)
+#' A map of the world (1:10m).
 #'
 #' @description A map of the world loaded as a sf object (scale 1:10m)
 #'
@@ -12,7 +12,7 @@
 #'
 'WorldMap1_10'
 
-#' A map of world states (scale 1:10m)
+#' A map of world states (scale 1:10m).
 #'
 #' @description A map of world states loaded as a sf object(scale 1:10m)
 #'
@@ -26,7 +26,7 @@
 #'
 'WorldStates1_10'
 
-#' A map of states of the United States of America (scale 1:110m)
+#' A map of states of the United States of America (scale 1:110m).
 #'
 #' @description A map of states of the United States of America loaded as a sf object (scale 1:110m)
 #'
@@ -40,7 +40,7 @@
 #'
 'USStates1_110'
 
-#' A map of the world (1:110m)
+#' A map of the world (1:110m).
 #'
 #' @description A map of the world loaded as a sf object (scale 1:110m)
 #'
@@ -54,7 +54,7 @@
 #'
 'WorldMap1_110'
 
-#' Data of world countries
+#' Data of world countries.
 #'
 #' @description A data frame containing information from 188 world countries.
 #'
@@ -81,7 +81,7 @@
 #'
 'WorldMapData'
 
-#' Data of world cities
+#' Data of world cities.
 #'
 #' @description A data frame containing information from 15,493 cities
 #'
@@ -106,7 +106,7 @@
 #'
 'WorldCities'
 
-#' A map of Barcelona districts
+#' A map of Barcelona districts.
 #'
 #' @description A map of Barcelona districts loaded as a sf object
 #'
@@ -134,7 +134,7 @@
 #'
 'BCNNeigh'
 
-#' A map of Spanish Autonomous Regions
+#' A map of Spanish Autonomous Regions.
 #'
 #' @description A map with the borders of the Spanish autonomous regions as a sf object
 #'
@@ -144,7 +144,7 @@
 #'
 'esp_ccaa'
 
-#' A map of Terrassa neighbourhoods
+#' A map of Terrassa neighbourhoods.
 #'
 #' @description A map of Terrassa neighbourhoods loaded as a sf object
 #'
@@ -158,7 +158,7 @@
 #'
 'trs_barris'
 
-#' A map of Terrassa districts
+#' A map of Terrassa districts.
 #'
 #' @description A map of Terrassa districts loaded as a sf object
 #'
@@ -172,7 +172,7 @@
 #'
 'trs_districtes'
 
-#' A map of Terrassa zip codes
+#' A map of Terrassa zip codes.
 #'
 #' @description A map of Terrassa zip codes loaded as a sf object
 #'
@@ -186,7 +186,7 @@
 #'
 'trs_codis'
 
-#' A map of Terrassa industrial parks
+#' A map of Terrassa industrial parks.
 #'
 #' @description A map of Terrassa industrial parks loaded as a sf object
 #'
@@ -200,7 +200,7 @@
 #'
 'trs_poligons'
 
-#' A map of Terrassa census tracts
+#' A map of Terrassa census tracts.
 #'
 #' @description A map of Terrassa census tracts loaded as a sf object
 #'
@@ -214,7 +214,7 @@
 #'
 'trs_cens'
 
-#' OpenFlights airport data
+#' OpenFlights airport data.
 #'
 #' @description Data from aiports presented in the OpenFlights data set. Last update is on January 2017.
 #'
@@ -240,7 +240,7 @@
 #'
 'of_airports'
 
-#' OpenFlights route database
+#' OpenFlights route database.
 #'
 #' @description The set of OpenFlights routes. The third-party that OpenFlights uses for route data ceased providing updates in June 2014. The current data is of historical value only.
 #'
@@ -261,7 +261,7 @@
 #'
 'of_routes'
 
-#' The mwgg airport database
+#' The mwgg airport database.
 #'
 #' @description Obtained from a JSON database of 28828 entries with basic information about nearly every airport and landing strip in the world. ICAO codes used as primary value. Some IATA codes have been added from the csv_airports database.
 #'
@@ -286,7 +286,7 @@
 #'
 'mwgg_airports'
 
-#' A database of airports obtained from a csv file of unknown origin.
+#' A database of airports.
 #'
 #' @description Another database of airports. It comes from a .csv file of unknown origin, with some additions and modifications with information from Wikipedia.
 #'
@@ -313,7 +313,7 @@
 #'
 'csv_airports'
 
-#' Air quality data from Barcelona
+#' Air quality data from Barcelona.
 #'
 #' @description
 #' A dataset with data from air quality in Barcelona. Currently data from January 2020 to June 2024.
@@ -337,7 +337,7 @@
 #'
 'aq_bcn'
 
-#' Air quality measurement stations of Barcelona
+#' Air quality measurement stations of Barcelona.
 #'
 #' @description
 #' A list of air quality measurement stations of Barcelona.
@@ -378,3 +378,53 @@
 #'aq_pollutants_bcn
 #'
 'aq_pollutants_bcn'
+
+#' Spanish towns and cities.
+#'
+#' @description
+#' A data frame of all the towns and cities of Spain.
+#'
+#'\describe{
+#'\item{comunidad}{Autonomous comunity.}
+#'\item{provincia}{Province.}
+#'\item{poblacion}{City/town name.}
+#'\item{latitud}{Latitude.}
+#'\item{longitud}{Longitude.}
+#'\item{altitud}{Altitude.}
+#'\item{habitantes}{Total population.}
+#'\item{hombres}{Total population (men).}
+#'\item{mujeres}{Total population (women).}
+#'}
+#'
+#'@source Business Intelligence \url{https://www.businessintelligence.info/resources/assets/listado-longitud-latitud-municipios-espana.xls}
+#'
+#'@examples
+#'
+#'poblaciones_es
+#'
+'poblaciones_es'
+
+#' Provincial capitals of Spain.
+#'
+#' @description
+#' A data frame of the provincial capitals of Spain.
+#'
+#'\describe{
+#'\item{comunidad}{Autonomous comunity.}
+#'\item{provincia}{Province.}
+#'\item{poblacion}{City/town name.}
+#'\item{latitud}{Latitude.}
+#'\item{longitud}{Longitude.}
+#'\item{altitud}{Altitude.}
+#'\item{habitantes}{Total population.}
+#'\item{hombres}{Total population (men).}
+#'\item{mujeres}{Total population (women).}
+#'}
+#'
+#'@source Filtered from Business Intelligence \url{https://www.businessintelligence.info/resources/assets/listado-longitud-latitud-municipios-espana.xls}
+#'
+#'@examples
+#'
+#'cap_provincia_es
+#'
+'cap_provincia_es'

@@ -3,7 +3,7 @@
 \docType{data}
 \name{WorldMapData}
 \alias{WorldMapData}
-\title{Data of world countries}
+\title{Data of world countries.}
 \format{
 An object of class \code{data.frame} with 177 rows and 12 columns.
 }

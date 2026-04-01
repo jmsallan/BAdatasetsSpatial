@@ -3,7 +3,7 @@
 \docType{data}
 \name{mwgg_airports}
 \alias{mwgg_airports}
-\title{The mwgg airport database}
+\title{The mwgg airport database.}
 \format{
 An object of class \code{data.table} (inherits from \code{data.frame}) with 28870 rows and 10 columns.
 }

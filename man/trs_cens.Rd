@@ -3,7 +3,7 @@
 \docType{data}
 \name{trs_cens}
 \alias{trs_cens}
-\title{A map of Terrassa census tracts}
+\title{A map of Terrassa census tracts.}
 \format{
 An object of class \code{sf} (inherits from \code{data.frame}) with 141 rows and 10 columns.
 }
