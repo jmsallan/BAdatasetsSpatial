@@ -5,15 +5,27 @@
 \alias{esp_ccaa}
 \title{A map of Spanish Autonomous Regions.}
 \format{
-An object of class \code{sf} (inherits from \code{data.frame}) with 18 rows and 20 columns.
+An object of class \code{sf} (inherits from \code{data.frame}) with 19 rows and 22 columns.
+
+An object of class \code{sf} (inherits from \code{data.frame}) with 19 rows and 22 columns.
+}
+\source{
+Hernangómez D (2026). mapSpain: Administrative Boundaries of Spain. doi:10.5281/zenodo.5366622, \url{https://ropenspain.github.io/mapSpain/}.
 }
 \usage{
+esp_ccaa
+
 esp_ccaa
 }
 \description{
 A map with the borders of the Spanish autonomous regions as a sf object
+
+A map of the autonomous communities of Spain, as obtained with mapSpain::esp_get_ccaa_siane(epsg = "4326")
 }
 \examples{
+
+esp_ccaa
+
 
 esp_ccaa
 

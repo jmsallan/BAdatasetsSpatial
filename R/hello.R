@@ -428,3 +428,29 @@
 #'cap_provincia_es
 #'
 'cap_provincia_es'
+
+#' A Map of Spanish Provinces
+#'
+#' @description
+#' A map of the provinces of Spain, as obtained with mapSpain::esp_get_prov_siane(epsg = "4326")
+#'
+#' @source Hernangómez D (2026). mapSpain: Administrative Boundaries of Spain. doi:10.5281/zenodo.5366622, \url{https://ropenspain.github.io/mapSpain/}.
+#'
+#' @examples
+#'
+#' esp_prov
+#'
+'esp_prov'
+
+#' A Map of Spanish Autonomous Communities
+#'
+#' @description
+#' A map of the autonomous communities of Spain, as obtained with mapSpain::esp_get_ccaa_siane(epsg = "4326")
+#'
+#' @source Hernangómez D (2026). mapSpain: Administrative Boundaries of Spain. doi:10.5281/zenodo.5366622, \url{https://ropenspain.github.io/mapSpain/}.
+#'
+#' @examples
+#'
+#' esp_ccaa
+#'
+'esp_ccaa'
